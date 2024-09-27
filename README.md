@@ -30,15 +30,17 @@ The project employs deep learning techniques, specifically Long Short-Term Memor
 - **Bidirectional Layers**: The model includes bidirectional layers to improve the understanding of context in both directions of the sequence.
 - **Evaluation Metrics**: The model is evaluated using classification reports, accuracy scores, precision-recall curves, and AUC values to ensure reliable performance.
 
+## Configuration
+
+The model's configuration, including hyperparameters such as learning rate, batch size, and the number of LSTM units, can be customized in the notebook. Additionally, options for handling class imbalances through techniques such as class weights are included.
+
 ## Conclusion
 Five models were trained and evaluated using different metrics; the threesholds which maximize the F1-score were identified for each label of every models.
 The selected model includes two LSTM bi-dirictional layers and it shows good performances on the most represented labels and disappointed performances on the leas represented labels.
 Better overall performances could be reached using more complex neural networks and oversampling in order to obtain a more balanced dataset.
 
 
-## Configuration
 
-The model's configuration, including hyperparameters such as learning rate, batch size, and the number of LSTM units, can be customized in the notebook. Additionally, options for handling class imbalances through techniques such as class weights are included.
 
 ## Contributors
 [Francesco Gardini](https://github.com/gardi97)
